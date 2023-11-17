@@ -1,0 +1,17 @@
+logger:
+  logLevel: DEBUG
+  logDir: ./
+  logFile: 
+  logMode: 
+  rewriteLog: true
+sleeps:
+  sleepService: 5s
+apiControl:
+  use: true
+  apiHost: 127.0.0.1
+  apiPort: 8080
+workers:
+  - use: true
+    name: test1
+  - use: false
+    name: test2
